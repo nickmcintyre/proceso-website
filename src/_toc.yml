@@ -1,0 +1,71 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+parts:
+  - caption: Reference
+    chapters:
+    - file: reference/getting_started
+    - file: reference/api
+  - caption: Examples
+    chapters:
+    - file: examples/hello_proceso/index
+      sections:
+      - file: examples/hello_proceso/simple_shapes
+    - file: examples/3D/index
+      sections:
+      - file: examples/3D/ray_casting
+    - file: examples/color/index
+      sections:
+      - file: examples/color/relativity
+    - file: examples/control/index
+      sections:
+      - file: examples/control/iteration
+    - file: examples/data/index
+      sections:
+      - file: examples/data/variables
+    - file: examples/dom/index
+      sections:
+      - file: examples/dom/video_capture
+    - file: examples/drawing/index
+      sections:
+      - file: examples/drawing/continuous_lines
+    - file: examples/form/index
+      sections:
+      - file: examples/form/pie_chart
+    - file: examples/image/index
+      sections:
+      - file: examples/image/load_display_image
+    - file: examples/interaction/index
+      sections:
+      - file: examples/interaction/wavemaker
+    - file: examples/lights/index
+      sections:
+      - file: examples/lights/directional
+    - file: examples/lists/index
+      sections:
+      - file: examples/lists/list
+    - file: examples/math/index
+      sections:
+      - file: examples/math/noise_wave
+    - file: examples/motion/index
+      sections:
+      - file: examples/motion/morph
+    - file: examples/objects/index
+      sections:
+      - file: examples/objects/composite_objects
+    - file: examples/simulate/index
+      sections:
+      - file: examples/simulate/flocking
+      - file: examples/simulate/sync
+    - file: examples/structure/index
+      sections:
+      - file: examples/structure/recursion
+    - file: examples/transform/index
+      sections:
+      - file: examples/transform/arm
+    - file: examples/typography/index
+      sections:
+      - file: examples/typography/letters
+

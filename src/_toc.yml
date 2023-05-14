@@ -7,7 +7,25 @@ parts:
   - caption: Reference
     chapters:
     - file: reference/getting_started
-    - file: reference/api
+    - file: reference/colors/index
+      sections:
+      - file: reference/colors/alpha
+      - file: reference/colors/blue
+      - file: reference/colors/brightness
+      - file: reference/colors/color
+      - file: reference/colors/green
+      - file: reference/colors/hue
+      - file: reference/colors/lerp_color
+      - file: reference/colors/lightness
+      - file: reference/colors/red
+      - file: reference/colors/saturation
+      - file: reference/colors/clear
+      - file: reference/colors/fill
+      - file: reference/colors/no_fill
+      - file: reference/colors/no_stroke
+      - file: reference/colors/stroke
+      - file: reference/colors/erase
+      - file: reference/colors/no_erase
   - caption: Examples
     chapters:
     - file: examples/hello_proceso/index

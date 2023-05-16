@@ -4,7 +4,7 @@ Adapted from https://p5js.org/examples/structure-recursion.html
 
 A demonstration of recursion, which means functions call themselves. A
 recursive function must have a terminating condition, without which it will go
-into an infinite loop. Notice how the drawCircle() function calls itself at
+into an infinite loop. Notice how the `draw_circle()` function calls itself at
 the end of its block. It continues to do this until the variable "level" is
 equal to 1.
 

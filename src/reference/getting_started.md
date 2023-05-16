@@ -1,9 +1,22 @@
 # Getting Started
 
-proceso sketches run in your web browser, so all you need is a text editor to get started. Here is an example of how to create a proceso sketch with PyScript using HTML, CSS, and Python:
+## PyScript
 
-**index.html**
+proceso sketches run in your web browser, so all you need is a text editor to get started. Here is an example of how to create a proceso sketch with PyScript using Python, HTML, and CSS:
 
+`````{tab-set}
+
+````{tab-item} Python
+```python
+from proceso import Sketch
+
+
+p5 = Sketch()
+p5.describe("A screen reader accessible description for the canvas.")
+```
+````
+
+````{tab-item} HTML
 ```html
 <!DOCTYPE html>
 <html lang="en-us">
@@ -28,9 +41,9 @@ proceso sketches run in your web browser, so all you need is a text editor to ge
 
 </html>
 ```
+````
 
-**style.css**
-
+````{tab-item} CSS
 ```css
 html,
 body {
@@ -42,16 +55,10 @@ canvas {
     display: block;
 }
 ```
+````
 
-**sketch.py**
+`````
 
-```python
-from proceso import Sketch
-
-
-p5 = Sketch()
-p5.describe("A screen reader accessible description for the canvas.")
-```
 
 ## Static Sketches
 
@@ -62,7 +69,9 @@ from proceso import Sketch
 
 
 p5 = Sketch()
-p5.describe("A rectangle, circle, triangle, and flower drawn in pink on a gray background.")
+p5.describe(
+    "A rectangle, circle, triangle, and flower drawn in pink on a gray background."
+)
 
 # Create the canvas
 p5.create_canvas(720, 400)
@@ -96,7 +105,9 @@ from proceso import Sketch
 
 
 p5 = Sketch()
-p5.describe("Ten white circles moving like fireflies on a dark blue background.")
+p5.describe(
+    "Ten white circles moving like fireflies on a dark blue background."
+)
 
 bugs = []
 num_bugs = 10
@@ -168,15 +179,15 @@ p5.run_sketch(setup=setup, draw=draw)
 
 ## Coding Environment
 
-**Cloud: PyScript (account required)**
+### Cloud: PyScript (account required)
 
 [PyScript](https://pyscript.com) is a great way to run proceso sketches with PyScript. Here is a [project template](https://4b2d42a1-0e0c-430f-8b20-4b2c7ff0dc3e.pyscriptapps.com/58197361-1c5f-4d47-93a9-91570255fe85/latest/).
 
-**Cloud: JupyterLite (no account required)**
+### Cloud: JupyterLite (no account required)
 
 Coming soonish.
 
-**Local: Anaconda + VS Code**
+### Local: Anaconda + VS Code
 
 Here is one possible setup for running sketches on your local machine:
 

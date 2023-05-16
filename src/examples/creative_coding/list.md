@@ -3,7 +3,7 @@
 Adapted from https://p5js.org/examples/arrays-array.html
 
 Each piece of data in a list is identified by an index number representing its
-position in the array. Lists are zero based, which means that the first
+position in the list. Lists are zero based, which means that the first
 element in the list is [0], the second element is [1], and so on. In this
 example, a list named "coswave" is created and filled with the cosine
 values. This data is displayed three separate ways on the screen. 

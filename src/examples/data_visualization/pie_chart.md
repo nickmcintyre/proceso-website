@@ -2,7 +2,7 @@
 
 Adapted from https://p5js.org/examples/form-pie-chart.html
 
-Uses the arc() function to generate a pie chart from the data stored in a list. 
+Uses the `arc()` function to generate a pie chart from the data stored in a list. 
 
 ```python
 from proceso import Sketch

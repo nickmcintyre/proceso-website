@@ -3,9 +3,9 @@
 Adapted from https://p5js.org/examples/transform-arm.html
 
 This example uses transform matrices to create an arm. The angle of each
-segment is controlled with the mouseX and mouseY position. The transformations
-applied to the first segment are also applied to the second segment because
-they are inside the same push() and pop() matrix group. 
+segment is controlled with the `mouse_x` and `mouse_y` position. The
+transformations applied to the first segment are also applied to the second
+segment because they are inside the same `push()` and `pop()` matrix group. 
 
 ```python
 from proceso import Sketch

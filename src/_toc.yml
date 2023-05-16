@@ -7,25 +7,27 @@ parts:
   - caption: Reference
     chapters:
     - file: reference/getting_started
-    - file: reference/colors/index
+    - file: reference/color/index
       sections:
-      - file: reference/colors/alpha
-      - file: reference/colors/blue
-      - file: reference/colors/brightness
-      - file: reference/colors/color
-      - file: reference/colors/green
-      - file: reference/colors/hue
-      - file: reference/colors/lerp_color
-      - file: reference/colors/lightness
-      - file: reference/colors/red
-      - file: reference/colors/saturation
-      - file: reference/colors/clear
-      - file: reference/colors/fill
-      - file: reference/colors/no_fill
-      - file: reference/colors/no_stroke
-      - file: reference/colors/stroke
-      - file: reference/colors/erase
-      - file: reference/colors/no_erase
+      - file: reference/color/alpha
+      - file: reference/color/blue
+      - file: reference/color/brightness
+      - file: reference/color/color
+      - file: reference/color/green
+      - file: reference/color/hue
+      - file: reference/color/lerp_color
+      - file: reference/color/lightness
+      - file: reference/color/red
+      - file: reference/color/saturation
+      - file: reference/color/background
+      - file: reference/color/clear
+      - file: reference/color/color_mode
+      - file: reference/color/fill
+      - file: reference/color/no_fill
+      - file: reference/color/no_stroke
+      - file: reference/color/stroke
+      - file: reference/color/erase
+      - file: reference/color/no_erase
     - file: reference/shape/index
       sections:
       - file: reference/shape/arc
@@ -39,62 +41,27 @@ parts:
       - file: reference/shape/triangle
   - caption: Examples
     chapters:
-    - file: examples/hello_proceso/index
+    - file: examples/creative_coding/index
       sections:
-      - file: examples/hello_proceso/simple_shapes
-    - file: examples/3D/index
+      - file: examples/creative_coding/simple_shapes
+      - file: examples/creative_coding/ray_casting
+      - file: examples/creative_coding/relativity
+      - file: examples/creative_coding/iteration
+      - file: examples/creative_coding/variables
+      - file: examples/creative_coding/video_capture
+      - file: examples/creative_coding/continuous_lines
+      - file: examples/creative_coding/load_display_image
+      - file: examples/creative_coding/wavemaker
+      - file: examples/creative_coding/directional
+      - file: examples/creative_coding/list
+      - file: examples/creative_coding/noise_wave
+      - file: examples/creative_coding/morph
+      - file: examples/creative_coding/composite_objects
+      - file: examples/creative_coding/flocking
+      - file: examples/creative_coding/sync
+      - file: examples/creative_coding/recursion
+      - file: examples/creative_coding/arm
+      - file: examples/creative_coding/letters
+    - file: examples/data_visualization/index
       sections:
-      - file: examples/3D/ray_casting
-    - file: examples/color/index
-      sections:
-      - file: examples/color/relativity
-    - file: examples/control/index
-      sections:
-      - file: examples/control/iteration
-    - file: examples/data/index
-      sections:
-      - file: examples/data/variables
-    - file: examples/dom/index
-      sections:
-      - file: examples/dom/video_capture
-    - file: examples/drawing/index
-      sections:
-      - file: examples/drawing/continuous_lines
-    - file: examples/form/index
-      sections:
-      - file: examples/form/pie_chart
-    - file: examples/image/index
-      sections:
-      - file: examples/image/load_display_image
-    - file: examples/interaction/index
-      sections:
-      - file: examples/interaction/wavemaker
-    - file: examples/lights/index
-      sections:
-      - file: examples/lights/directional
-    - file: examples/lists/index
-      sections:
-      - file: examples/lists/list
-    - file: examples/math/index
-      sections:
-      - file: examples/math/noise_wave
-    - file: examples/motion/index
-      sections:
-      - file: examples/motion/morph
-    - file: examples/objects/index
-      sections:
-      - file: examples/objects/composite_objects
-    - file: examples/simulate/index
-      sections:
-      - file: examples/simulate/flocking
-      - file: examples/simulate/sync
-    - file: examples/structure/index
-      sections:
-      - file: examples/structure/recursion
-    - file: examples/transform/index
-      sections:
-      - file: examples/transform/arm
-    - file: examples/typography/index
-      sections:
-      - file: examples/typography/letters
-
+      - file: examples/data_visualization/pie_chart

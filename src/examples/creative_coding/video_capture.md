@@ -4,7 +4,7 @@ Adapted from https://p5js.org/examples/dom-video-capture.html
 
 Capture video from the webcam and display on the canvas as well with invert
 filter. Note that by default the capture feed shows up, too. You can hide the
-feed by uncommenting the capture.hide() line. 
+feed by uncommenting the `capture.hide()` line. 
 
 ```python
 from proceso import Sketch

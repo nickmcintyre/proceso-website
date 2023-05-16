@@ -26,6 +26,17 @@ parts:
       - file: reference/colors/stroke
       - file: reference/colors/erase
       - file: reference/colors/no_erase
+    - file: reference/shape/index
+      sections:
+      - file: reference/shape/arc
+      - file: reference/shape/ellipse
+      - file: reference/shape/circle
+      - file: reference/shape/line
+      - file: reference/shape/point
+      - file: reference/shape/quad
+      - file: reference/shape/rect
+      - file: reference/shape/square
+      - file: reference/shape/triangle
   - caption: Examples
     chapters:
     - file: examples/hello_proceso/index

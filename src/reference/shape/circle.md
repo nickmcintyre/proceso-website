@@ -4,7 +4,13 @@
 
 ## Description
 
-
+Draws a circle to the screen. A circle is a simple closed shape. It is the set
+of all points in a plane that are at a given distance from a given point, the
+center. This function is a special case of the `ellipse()` function, where the
+width and height of the ellipse are the same. Height and width of the ellipse
+correspond to the diameter of the circle. By default, the first two parameters
+set the location of the center of the circle, the third sets the diameter of
+the circle.
 
 ## Examples
 
@@ -13,23 +19,20 @@ from proceso import Sketch
 
 
 p5 = Sketch()
-p5.describe("White ellipse with black outline in middle of a gray canvas")
+p5.describe("White circle with black outline in mid of gray canvas")
 
-p5.ellipse(56, 46, 55, 55)
+# Draw a circle at location (30, 30) with a diameter of 20.
+p5.circle(30, 30, 20)
 ```
 
 ## Syntax
 
-`ellipse(x, y, w, [h], [detail])`
+`circle(x, y, d)`
 
 ## Parameters
 
-`x: float` x-coordinate of the center of the ellipse.
+`x: float` x-coordinate of the center of the circle.
 
-`y: float` y-coordinate of the center of the ellipse.
+`y: float` y-coordinate of the center of the circle.
 
-`w: float` Width of the ellipse.
-
-`[h]: float` Height of the ellipse.
-
-`[detail]: int` Optional parameter for WEBGL mode only. This is to specify the number of vertices that makes up the perimeter of the ellipse. Default value is 25. Won't draw a stroke for a detail of more than 50.
+`d: float` Diameter of the circle.

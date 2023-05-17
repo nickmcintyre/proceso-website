@@ -9,36 +9,51 @@ parts:
     - file: reference/getting_started
     - file: reference/color/index
       sections:
-      - file: reference/color/alpha
-      - file: reference/color/blue
-      - file: reference/color/brightness
-      - file: reference/color/color
-      - file: reference/color/green
-      - file: reference/color/hue
-      - file: reference/color/lerp_color
-      - file: reference/color/lightness
-      - file: reference/color/red
-      - file: reference/color/saturation
-      - file: reference/color/background
-      - file: reference/color/clear
-      - file: reference/color/color_mode
-      - file: reference/color/fill
-      - file: reference/color/no_fill
-      - file: reference/color/no_stroke
-      - file: reference/color/stroke
-      - file: reference/color/erase
-      - file: reference/color/no_erase
+      - file: reference/color/creating_reading
+        sections:
+        - file: reference/color/alpha
+        - file: reference/color/blue
+        - file: reference/color/brightness
+        - file: reference/color/color
+        - file: reference/color/green
+        - file: reference/color/hue
+        - file: reference/color/lerp_color
+        - file: reference/color/lightness
+        - file: reference/color/red
+        - file: reference/color/saturation
+      - file: reference/color/setting
+        sections:
+        - file: reference/color/background
+        - file: reference/color/clear
+        - file: reference/color/color_mode
+        - file: reference/color/fill
+        - file: reference/color/no_fill
+        - file: reference/color/no_stroke
+        - file: reference/color/stroke
+        - file: reference/color/erase
+        - file: reference/color/no_erase
     - file: reference/shape/index
       sections:
-      - file: reference/shape/arc
-      - file: reference/shape/ellipse
-      - file: reference/shape/circle
-      - file: reference/shape/line
-      - file: reference/shape/point
-      - file: reference/shape/quad
-      - file: reference/shape/rect
-      - file: reference/shape/square
-      - file: reference/shape/triangle
+      - file: reference/shape/2d_primitives
+        sections:
+        - file: reference/shape/arc
+        - file: reference/shape/ellipse
+        - file: reference/shape/circle
+        - file: reference/shape/line
+        - file: reference/shape/point
+        - file: reference/shape/quad
+        - file: reference/shape/rect
+        - file: reference/shape/square
+        - file: reference/shape/triangle
+      - file: reference/shape/attributes
+        sections:
+        - file: reference/shape/ellipse_mode
+        - file: reference/shape/no_smooth
+        - file: reference/shape/rect_mode
+        - file: reference/shape/smooth
+        - file: reference/shape/stroke_cap
+        - file: reference/shape/stroke_join
+        - file: reference/shape/stroke_weight
   - caption: Examples
     chapters:
     - file: examples/creative_coding/index

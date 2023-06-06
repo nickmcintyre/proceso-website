@@ -77,3 +77,5 @@ class Bug:
 
 p5.run_sketch(setup=setup, draw=draw)
 ```
+
+<a class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-primary sd-rounded-pill float-left" href="https://4b2d42a1-0e0c-430f-8b20-4b2c7ff0dc3e.pyscriptapps.com/2db32203-cd60-416f-999c-f730253358e8/latest/" target="_blank">View sketch</a>

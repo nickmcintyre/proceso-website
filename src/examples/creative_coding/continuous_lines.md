@@ -29,3 +29,5 @@ def key_pressed():
 
 p5.run_sketch(setup=setup, draw=draw, key_pressed=key_pressed)
 ```
+
+<a class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-primary sd-rounded-pill float-left" href="https://4b2d42a1-0e0c-430f-8b20-4b2c7ff0dc3e.pyscriptapps.com/043632a3-6747-4f02-8d30-900f4b278199/latest/" target="_blank">View sketch</a>

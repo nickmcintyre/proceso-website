@@ -43,3 +43,5 @@ for _ in range(num - 1):
     p5.rect(120, y, 40, 1)
     y += 20
 ```
+
+<a class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-primary sd-rounded-pill float-left" href="https://4b2d42a1-0e0c-430f-8b20-4b2c7ff0dc3e.pyscriptapps.com/ce44c49a-6039-420c-935a-5428fc9e4263/latest/" target="_blank">View sketch</a>

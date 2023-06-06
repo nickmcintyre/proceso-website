@@ -3,10 +3,39 @@
 
 format: jb-book
 root: index
+
 parts:
+  - caption: Welcome
+    chapters:
+    - file: welcome/getting_started
+  - caption: Examples
+    chapters:
+    - file: examples/creative_coding/index
+      sections:
+      - file: examples/creative_coding/simple_shapes
+      - file: examples/creative_coding/ray_casting
+      - file: examples/creative_coding/relativity
+      - file: examples/creative_coding/iteration
+      - file: examples/creative_coding/variables
+      - file: examples/creative_coding/video_capture
+      - file: examples/creative_coding/continuous_lines
+      - file: examples/creative_coding/load_display_image
+      - file: examples/creative_coding/wavemaker
+      - file: examples/creative_coding/directional
+      - file: examples/creative_coding/list
+      - file: examples/creative_coding/noise_wave
+      - file: examples/creative_coding/morph
+      - file: examples/creative_coding/composite_objects
+      - file: examples/creative_coding/flocking
+      - file: examples/creative_coding/sync
+      - file: examples/creative_coding/recursion
+      - file: examples/creative_coding/arm
+      - file: examples/creative_coding/letters
+    - file: examples/data_visualization/index
+      sections:
+      - file: examples/data_visualization/pie_chart
   - caption: Reference
     chapters:
-    - file: reference/getting_started
     - file: reference/color/index
       sections:
       - file: reference/color/creating_reading
@@ -54,29 +83,3 @@ parts:
         - file: reference/shape/stroke_cap
         - file: reference/shape/stroke_join
         - file: reference/shape/stroke_weight
-  - caption: Examples
-    chapters:
-    - file: examples/creative_coding/index
-      sections:
-      - file: examples/creative_coding/simple_shapes
-      - file: examples/creative_coding/ray_casting
-      - file: examples/creative_coding/relativity
-      - file: examples/creative_coding/iteration
-      - file: examples/creative_coding/variables
-      - file: examples/creative_coding/video_capture
-      - file: examples/creative_coding/continuous_lines
-      - file: examples/creative_coding/load_display_image
-      - file: examples/creative_coding/wavemaker
-      - file: examples/creative_coding/directional
-      - file: examples/creative_coding/list
-      - file: examples/creative_coding/noise_wave
-      - file: examples/creative_coding/morph
-      - file: examples/creative_coding/composite_objects
-      - file: examples/creative_coding/flocking
-      - file: examples/creative_coding/sync
-      - file: examples/creative_coding/recursion
-      - file: examples/creative_coding/arm
-      - file: examples/creative_coding/letters
-    - file: examples/data_visualization/index
-      sections:
-      - file: examples/data_visualization/pie_chart

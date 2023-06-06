@@ -96,6 +96,8 @@ for _ in range(10):
     p5.rotate(p5.PI / 5)
 ```
 
+<a class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-primary sd-rounded-pill float-left" href="https://4b2d42a1-0e0c-430f-8b20-4b2c7ff0dc3e.pyscriptapps.com/98a781e8-5e31-4f82-a2e5-881f9fed7b13/latest/" target="_blank">View sketch</a>
+
 ## Active Sketches
 
 proceso's "active sketches" provide the `run_sketch()` method to handle initialization, looping, and events. The sketch below simulates the synchronization behavior observed in some species of fireflies.
@@ -177,15 +179,13 @@ class Bug:
 p5.run_sketch(setup=setup, draw=draw)
 ```
 
+<a class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-primary sd-rounded-pill float-left" href="https://4b2d42a1-0e0c-430f-8b20-4b2c7ff0dc3e.pyscriptapps.com/2db32203-cd60-416f-999c-f730253358e8/latest/" target="_blank">View sketch</a>
+
 ## Coding Environment
 
 ### Cloud: PyScript (account required)
 
-[PyScript](https://pyscript.com) is a great way to run proceso sketches with PyScript. Here is a [project template](https://4b2d42a1-0e0c-430f-8b20-4b2c7ff0dc3e.pyscriptapps.com/58197361-1c5f-4d47-93a9-91570255fe85/latest/).
-
-### Cloud: JupyterLite (no account required)
-
-Coming soonish.
+[PyScript](https://pyscript.com) is a great way to run proceso sketches with PyScript. Here is a [project template](https://pyscript.com/view/4b2d42a1-0e0c-430f-8b20-4b2c7ff0dc3e/58197361-1c5f-4d47-93a9-91570255fe85/latest/).
 
 ### Local: Anaconda + VS Code
 

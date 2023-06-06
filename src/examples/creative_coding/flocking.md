@@ -180,3 +180,5 @@ class Boid:
 
 p5.run_sketch(setup=setup, draw=draw)
 ```
+
+<a class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-primary sd-rounded-pill float-left" href="https://4b2d42a1-0e0c-430f-8b20-4b2c7ff0dc3e.pyscriptapps.com/d7696d46-a7af-4ff8-84ab-cefcad8fce76/latest/" target="_blank">View sketch</a>

@@ -99,3 +99,5 @@ def draw():
 
 p5.run_sketch(setup=setup, draw=draw)
 ```
+
+<a class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-primary sd-rounded-pill float-left" href="https://4b2d42a1-0e0c-430f-8b20-4b2c7ff0dc3e.pyscriptapps.com/5cca5431-c5c7-42fb-a699-621de11eb2b7/latest/" target="_blank">View sketch</a>

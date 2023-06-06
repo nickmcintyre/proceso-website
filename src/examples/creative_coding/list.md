@@ -42,3 +42,5 @@ for i in range(0, p5.width, 3):
     p5.stroke(255 - coswave[i] * 255)
     p5.line(i, y1, i, y2)
 ```
+
+<a class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-primary sd-rounded-pill float-left" href="https://4b2d42a1-0e0c-430f-8b20-4b2c7ff0dc3e.pyscriptapps.com/3a1e6ca0-d73b-4edd-8971-b240eb3178d1/latest/" target="_blank">View sketch</a>

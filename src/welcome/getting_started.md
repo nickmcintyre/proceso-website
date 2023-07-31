@@ -12,7 +12,10 @@ from proceso import Sketch
 
 
 p5 = Sketch()
-p5.describe("A screen reader accessible description for the canvas.")
+p5.describe("A white circle in the middle of a blue square.")
+
+p5.background("cornflowerblue")
+p5.circle(50, 50, 20)
 ```
 ````
 
@@ -25,12 +28,12 @@ p5.describe("A screen reader accessible description for the canvas.")
     <title>My Sketch</title>
     <meta charset="utf-8" />
 
-    <link rel="stylesheet" href="https://pyscript.net/releases/2023.03.1/pyscript.css" />
-    <script defer src="https://pyscript.net/releases/2023.03.1/pyscript.js"></script>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2023.05.1/pyscript.css" />
+    <script defer src="https://pyscript.net/releases/2023.05.1/pyscript.js"></script>
     <link rel="stylesheet" href="style.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"></script>
     <py-config>
-        packages = ["numpy", "proceso"]
+        packages = ["proceso"]
     </py-config>
 </head>
 
